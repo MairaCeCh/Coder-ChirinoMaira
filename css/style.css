@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@0,185;1,185&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ysabeau", sans-serif;
+  font-weight: bold;
+}
+
+.card__img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #c73c7d;
+}
+body {
+  padding: 15px;
+  background: #8cb9bd;
+  box-sizing: border-box;
+}
+
+ul li {
+  transition: 0.3s;
+}
+ul li:hover {
+  color: #ecb159;
+  transform: scale(1.2);
+}
+.form-input input {
+  margin: 2px;
+  width: 160px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: #fefbf6;
+  border-bottom: 2px solid #ecb159;
+  border-left: 2px solid #ecb159;
+}
+input::placeholder {
+  color: #494949;
+  font-size: 20px;
+}
+
+.images img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  margin-top: 15px;
+  background: #fefbf6;
+  width: 100%;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 25px;
+}
+.iconos {
+  color: #ecb159;
+  text-align: center;
+  font-size: 40px;
+  margin: 15px 65px;
+  display: inline-block;
+}
+
+/* ///////////////////////// roma ////////////////// */
+.card-roma-img img {
+  width: 100%;
+  height: 160px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.card-roma {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.card-roma {
+  background-size: cover;
+  margin: 0;
+}
+.alquilar {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* /////////// media querys////////// */
+@media screen and (max-width: 900px) {
+  .section__form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .section__form input {
+    width: 200px;
+    padding: 5px;
+    margin: 15px;
+  }
+  .card-roma-img img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0;
+  }
+  .alquilar {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .iconos {
+    font-size: 30px;
+  }
+  .card-roma {
+    flex-direction: column;
+  }
+}
