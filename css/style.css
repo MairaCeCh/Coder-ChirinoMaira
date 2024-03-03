@@ -15,7 +15,7 @@
   height: 250px;
   border-radius: 50%;
   object-fit: cover;
-  border: 5px solid #c73c7d;
+  border: 5px solid #ffc107;
 }
 body {
   padding: 15px;
@@ -27,7 +27,7 @@ ul li {
   transition: 0.3s;
 }
 ul li:hover {
-  color: #ecb159;
+  color: #ffc107;
   transform: scale(1.2);
 }
 .form-input input {
@@ -38,8 +38,8 @@ ul li:hover {
   outline: none;
   border: none;
   background: #fefbf6;
-  border-bottom: 2px solid #ecb159;
-  border-left: 2px solid #ecb159;
+  border-bottom: 2px solid #ffc107;
+  border-left: 2px solid #ffc107;
 }
 input::placeholder {
   color: #494949;
@@ -62,7 +62,7 @@ footer {
   border-radius: 25px;
 }
 .iconos {
-  color: #ecb159;
+  color: #ffc107;
   text-align: center;
   font-size: 40px;
   margin: 15px 65px;
